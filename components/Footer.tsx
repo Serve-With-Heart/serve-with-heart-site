@@ -4,7 +4,6 @@ import { Heart, Instagram, Mail, MapPin } from "lucide-react";
 
 const footerLinks = [
   { href: "/about", label: "About Us" },
-  { href: "/impact", label: "Our Impact" },
   { href: "/volunteer", label: "Volunteer" },
   { href: "/get-involved", label: "Get Involved" },
   { href: "/contact", label: "Contact" },
@@ -52,20 +51,20 @@ export default function Footer() {
             <h3 className="font-semibold text-orange mb-4">Connect With Us</h3>
             <div className="space-y-3">
               <a
-                href="https://www.instagram.com/servewithheartorg"
+                href="https://www.instagram.com/servewithheart2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/70 hover:text-orange transition-colors text-sm"
               >
                 <Instagram className="h-4 w-4" />
-                @servewithheartorg
+                @servewithheart2026
               </a>
               <a
-                href="mailto:info@servewithheart.org"
+                href="mailto:teamservewithheart@gmail.com"
                 className="flex items-center gap-2 text-white/70 hover:text-orange transition-colors text-sm"
               >
                 <Mail className="h-4 w-4" />
-                info@servewithheart.org
+                teamservewithheart@gmail.com
               </a>
               <span className="flex items-center gap-2 text-white/70 text-sm">
                 <MapPin className="h-4 w-4" />

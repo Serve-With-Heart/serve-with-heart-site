@@ -35,8 +35,8 @@ export default function GetInvolvedPage() {
             <p className="text-orange font-semibold uppercase tracking-wide text-sm mb-3">Get Involved</p>
             <h1 className="text-5xl font-bold mb-6">Support the Mission</h1>
             <p className="text-white/70 text-lg leading-relaxed max-w-2xl mx-auto">
-              Your generosity — whether financial or in-kind — directly serves homeless individuals
-              and families across the greater Austin area.
+              Donate to our organization and local homeless non-profits to help our mission serve
+              homeless individuals and families across the greater Austin area.
             </p>
           </AnimateIn>
         </div>

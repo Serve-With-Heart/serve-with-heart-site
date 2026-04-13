@@ -38,10 +38,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-navy mb-1">Email</p>
                     <a
-                      href="mailto:info@servewithheart.org"
+                      href="mailto:teamservewithheart@gmail.com"
                       className="text-navy/70 hover:text-orange transition-colors"
                     >
-                      info@servewithheart.org
+                      teamservewithheart@gmail.com
                     </a>
                   </div>
                 </div>
@@ -53,12 +53,12 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-navy mb-1">Instagram</p>
                     <a
-                      href="https://www.instagram.com/servewithheartorg"
+                      href="https://www.instagram.com/servewithheart2026"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-navy/70 hover:text-orange transition-colors"
                     >
-                      @servewithheartorg
+                      @servewithheart2026
                     </a>
                   </div>
                 </div>

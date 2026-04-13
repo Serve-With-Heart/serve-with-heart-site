@@ -7,7 +7,6 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
-  { href: "/impact", label: "Our Impact" },
   { href: "/volunteer", label: "Volunteer" },
   { href: "/get-involved", label: "Get Involved" },
   { href: "/contact", label: "Contact" },
@@ -62,12 +61,14 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/get-involved"
+            <a
+              href="https://www.gofundme.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="ml-2 rounded-full bg-orange px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-orange-dark hover:shadow-lg"
             >
               Donate Now
-            </Link>
+            </a>
           </nav>
 
           <button
@@ -93,13 +94,15 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/get-involved"
+            <a
+              href="https://www.gofundme.com"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
               className="mt-2 rounded-full bg-orange px-5 py-3 text-center text-sm font-semibold text-white hover:bg-orange-dark transition-colors"
             >
               Donate Now
-            </Link>
+            </a>
           </nav>
         </div>
       )}
